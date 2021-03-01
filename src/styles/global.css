@@ -40,16 +40,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  height: 100vh;
-  margin: 0 auto;
-  max-width: 992px;
-  padding: 2.5rem 2rem;
-
-  display: flex;
-  flex-direction: column;
-}
-
 /* --------------- RESPONSIVE --------------- */
 @media(max-widht: 1000px) {
   html {
