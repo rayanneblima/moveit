@@ -16,3 +16,15 @@
   gap: 6.25rem; /* 100px */
   grid-template-columns: 1fr 1fr;
 }
+
+@media (max-width: 880px) {
+  .container section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  /* TODO */
+}
