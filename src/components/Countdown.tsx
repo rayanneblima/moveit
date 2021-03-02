@@ -58,6 +58,7 @@ export function Countdown() {
           className={styles.countdownButton}
         >
           Ciclo encerrado
+          <img src="icons/check.svg" alt="Check" />
         </button>
       ) : (
         <>
