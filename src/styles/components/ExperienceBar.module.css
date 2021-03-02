@@ -23,7 +23,14 @@
   position: absolute;
 }
 
+.experienceBar .arrow {
+  background-color: var(--blue);
+  height: 12px;
+  width: 3px;
+}
+
 span.currentExperience {
+  font-size: 0.8rem;
   position: absolute;
   transform: translateX(-50%);
   top: 12px;
