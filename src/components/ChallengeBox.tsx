@@ -1,6 +1,10 @@
+import { useContext } from 'react';
+import { ChallengeContext } from '../contexts/ChallengeContext';
 import styles from '../styles/components/ChallengeBox.module.css';
 
 export function ChallengeBox() {
+  const contextData = useContext(ChallengeContext);
+
   const hasActiveChallenge = true;
 
   return (
@@ -8,7 +12,7 @@ export function ChallengeBox() {
       { hasActiveChallenge ? (
         <div className={styles.challengeActive}>
           <header>Ganhe 400 xp</header>
-
+          
           <main>
             <img src="icons/body.svg" alt=""/>
             <strong>Novo Desafio</strong>
